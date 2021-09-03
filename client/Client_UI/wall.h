@@ -7,6 +7,15 @@
 #define STONE_WALL_NAME "Stone Wall"
 #define LEGEND_WALL_NAME "Legendary Wall"
 
+/* Store wall infomation
+    * @param	type            type of wall
+    * @param	defense	        defense stat of the wall
+    * @param	name            name of the wall
+    * @param	wood            number of wood cost
+    * @param	stone           number of stont cost
+    * @param	iron            number of iron cost
+    
+*/
 class Wall {
 public:
     int type;
