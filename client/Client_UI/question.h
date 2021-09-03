@@ -1,6 +1,13 @@
 #pragma once
 #include "constant.h"
 
+/* Store player infomation
+    * @param    id          Id of the question
+    * @param    answer1     answer of question
+    * @param    answer2     answer of question
+    * @param    answer3     answer of question
+    * @param    answer4     answer of question 
+*/
 class Question {
 public:
     int id;
